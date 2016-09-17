@@ -36,7 +36,11 @@ public class Lizard : MonoBehaviour {
 			attacker.Attack (obj);
 		}
 
-
+		if (obj.GetComponent<Gnome>()){
+			anim.SetBool ("IsAttacking", true);
+			attacker.Attack(obj);
+		}
+			
 
 	}
 }

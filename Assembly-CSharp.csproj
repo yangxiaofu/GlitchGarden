@@ -48,21 +48,21 @@
      <Compile Include="Assets\Animations\Fox\Fox.cs" />
      <Compile Include="Assets\Animations\Gravestone\Stone.cs" />
      <Compile Include="Assets\Animations\Lizard\Lizard.cs" />
-     <Compile Include="Assets\Button.cs" />
-     <Compile Include="Assets\Cactus.cs" />
-     <Compile Include="Assets\DefenderSpawner.cs" />
      <Compile Include="Assets\Entities\Enemy\EnemyBehavior.cs" />
      <Compile Include="Assets\Entities\EnemyFormation\EnemySpawner.cs" />
-     <Compile Include="Assets\Entities\EnemyFormation\Position.cs" />
      <Compile Include="Assets\Entities\MusicPlayer\MusicPlayer.cs" />
      <Compile Include="Assets\Entities\Player\PlayerController.cs" />
      <Compile Include="Assets\Entities\Player\Projectile.cs" />
      <Compile Include="Assets\Entities\Player\Thruster.cs" />
      <Compile Include="Assets\Entities\ScoreKeeper\ScoreKeeper.cs" />
      <Compile Include="Assets\Prefabs\Attackers\Attacker.cs" />
+     <Compile Include="Assets\Prefabs\Defenders\Cactus.cs" />
      <Compile Include="Assets\Prefabs\Defenders\Defender.cs" />
+     <Compile Include="Assets\Prefabs\Defenders\Gnome.cs" />
      <Compile Include="Assets\Scripts\Ball.cs" />
      <Compile Include="Assets\Scripts\Brick.cs" />
+     <Compile Include="Assets\Scripts\Button.cs" />
+     <Compile Include="Assets\Scripts\DefenderSpawner.cs" />
      <Compile Include="Assets\Scripts\FadeIn.cs" />
      <Compile Include="Assets\Scripts\Health.cs" />
      <Compile Include="Assets\Scripts\LevelManager.cs" />
@@ -75,6 +75,7 @@
      <Compile Include="Assets\Scripts\Shooter.cs" />
      <Compile Include="Assets\Scripts\Shredder.cs" />
      <Compile Include="Assets\Scripts\Spawner.cs" />
+     <Compile Include="Assets\Scripts\StarDisplay.cs" />
      <Compile Include="Assets\Scripts\optionsController.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
