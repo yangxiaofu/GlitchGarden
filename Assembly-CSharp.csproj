@@ -55,6 +55,7 @@
      <Compile Include="Assets\Entities\Player\Projectile.cs" />
      <Compile Include="Assets\Entities\Player\Thruster.cs" />
      <Compile Include="Assets\Entities\ScoreKeeper\ScoreKeeper.cs" />
+     <Compile Include="Assets\GameTimer.cs" />
      <Compile Include="Assets\Prefabs\Attackers\Attacker.cs" />
      <Compile Include="Assets\Prefabs\Defenders\Cactus.cs" />
      <Compile Include="Assets\Prefabs\Defenders\Defender.cs" />
